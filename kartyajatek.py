@@ -30,7 +30,36 @@ def jatekosellen():
     jatekos1 = []
     jatekos1.append(random.randint(2 , 11))
     jatekos1.append(random.randint(2 , 11))
-    jatekos1végpontszam = sum (jatekos1)
+    jatekos1vegpontszam = sum (jatekos1)
+    jatekos2 = []
+    jatekos2.append(random.randint(2 , 11))
+    jatekos2.append(random.randint(2 , 11))
+    jatekos2vegpontszam = sum (jatekos2)
+
+    print("Első Játékos:")
+    print(" ")
+    print(f"Ez az általad összesen elért pontszám: {jatekos1}")
+
+    print("Második Játékos:")
+    print(" ")
+    print(f"Ez az általad összesen elért pontszám: {jatekos2}")
+    if jatekos1vegpontszam == 21:
+        print(" ")
+        print("Gratulálok Első Játékos nyertél")
+    elif jatekos2vegpontszam == 21:
+        print("Gratulálok Második Játékos nyertél")
+    elif jatekos1vegpontszam > 21:
+        print("Első Játékos sajnos vesztettál túléptél 21-en")
+    elif jatekos2vegpontszam > 21:
+        print("Második Játékos sajnos vesztettál túléptél 21-en")
+    elif jatekos1vegpontszam > jatekos2vegpontszam:
+        print("Játékos1 nyertél")
+    elif jatekosvegsopontszam < geposzpontszama:
+        print("Játékos2 nyertél")
+        print("vesztettél")
+    elif geposzpontszama == 21:
+        print(" ")
+        print("A gép nyert:(")
 
 
 
