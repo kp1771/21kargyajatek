@@ -67,3 +67,4 @@ elif jatekmod.lower() == "játékos":
     jatekosellen()
 else:
     print("⚠️ Érvénytelen játékmód! Kérlek, válassz 'gép' vagy 'játékos' módot.")
+#.lower és a /n-t Chatgpt-től kérdeztem mint fejlesztési javaslat és be is építettem aés a füzetbe is leírtam/megtanultam
