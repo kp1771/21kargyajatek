@@ -16,15 +16,16 @@ def gepellen():
     print(f"A gép ennyi pontot szerzett összesen: {geposzpontszama}")
     print(f"Ez az általad összesen elért pontszám: {jatekosvegsopontszam}")
     if jatekosvegsopontszam == 21:
+        print(" ")
         print("Gratulálok nyertél")
     elif jatekosvegsopontszam > geposzpontszama:
         print("nyertél")
     elif jatekosvegsopontszam < geposzpontszama:
+        print(" ")
         print("vesztettél")
     elif geposzpontszama == 21:
+        print(" ")
         print("A gép nyert:(")
-    if jatekmod == "játékos":
-        print("")
 def jatekosellen():
     jatekos1 = []
     jatekos1.append(random.randint(2 , 11))
